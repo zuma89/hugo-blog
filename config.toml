@@ -1,0 +1,19 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hilary Ho's Blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Hilary Ho's Blog"
+    description = "Some of the techstuff that I came across"
+    github = "https://github.com/zuma89"
+    twitter = "https://twitter.com/ho_hilary"
+    email = "hilaryjhho@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Sun, Feb 16, 2020"
+
+[Permalinks]
+    post = "/:filename/"
